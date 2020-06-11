@@ -34,13 +34,13 @@ Google PageRank algorithm implemented with Apache Hadoop framework and MapReduce
         - `dirname $(dirname $(readlink -f $(which javac)))` (Linux)
         - `$(dirname $(readlink $(which javac)))/java_home` (MacOS)
     - Example for setting HDFS and Java path:
-        - <p align="right"><img width=20% src="https://github.com/dle8/Page-Rank/blob/master/images/sample_path.png"></p>
+        - <p align="left"><img width=20% src="https://github.com/dle8/Page-Rank/blob/master/images/sample_path.png"></p>
     - Apply changes to the current terminal with:
         - `source .bash_rc` if using bash
         - `source .zhrc` if using zsh
     - Verify Java and Hadoop were properly installed with `java -version` and `hadoop version`
 
-## ⬇ Run
+## 🗒️ Run
 
 This project is deployed on a t2.micro AWS EC2 instance running Ubuntu 18.04
 - Create directories in hadoop
